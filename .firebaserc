@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "slack-mimic-1db80"
+  },
+  "targets": {
+    "slack-mimic-1db80": {
+      "hosting": {
+        "firebase": [
+          "slack-mimic-1db80"
+        ]
+      }
+    }
+  }
+}

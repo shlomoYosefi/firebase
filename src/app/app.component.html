@@ -1,0 +1,14 @@
+<h1>shlomo</h1>
+<h2>yacov</h2><br><br>
+
+<div>
+  <input #user/><br>
+  <button (click)='add(user.value)'>add</button>
+</div>
+
+
+
+<ul *ngFor = 'let i of items | async'>
+  <li>{{i | json}}</li>
+
+</ul>
